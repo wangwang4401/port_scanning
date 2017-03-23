@@ -1,2 +1,5 @@
 # port_scanning
-use it to scan which port is open
+此软件用于端口扫描 仅供学习研究使用
+get_ip_list(）用于获取某一个ip段的ip地址列表
+    例： get_ip_list([140, 205, 94, -1]） 相当于 140.205.94.*  *表示0-255
+port_list = [80, 88, 1, 2] 自定义扫描端口列表 要加入哪个端口 就往port_list加入几个端口
